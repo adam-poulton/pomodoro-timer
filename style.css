@@ -14,7 +14,6 @@ body {
 
 }
 #main-container{
-  margin: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -27,8 +26,8 @@ body {
 #content-container{
   background-color: #fff;
   overflow: auto;
-  padding: 20px;
   height: 100%;
+  width: 100%;
 }
 
 .actions{
@@ -43,6 +42,7 @@ body {
 button{
   padding: 20px;
   font-size: 1em;
+  margin-top: 10px;
 }
 
 button:hover{
