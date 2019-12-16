@@ -74,6 +74,9 @@ const countdown = () => {
       setTimeout(countdown, 1000);
     } else if(seconds == 0){
       playAlarm();
+      console.log("BUZZ!!");
+    } else{
+      console.log(seconds);
     }
   }
 };
