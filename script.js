@@ -15,6 +15,10 @@ const defaults = {
   startTime: 1500,
 }
 
+const alarm = new Audio('alarmwatch.wav');
+
+const playAlarm = () => alarm.play();
+
 const timerValue = document.querySelector('#timer-value')
 
 const setState = (ctx, key, val) => {
@@ -68,6 +72,8 @@ const countdown = () => {
     setState(timerState, 'current', seconds);
     if(seconds > 0) {
       setTimeout(countdown, 1000);
+    } else if(seconds == 0){
+      playAlarm();
     }
   }
 };
