@@ -1,0 +1,54 @@
+html {
+  font-family: sans-serif, Helvetica;
+  font-size: 1em;
+}
+
+header {
+  background-color: #eee;
+  padding: 30px;
+  font-size: 2em;
+}
+
+body {
+  height: 100%;
+
+}
+#main-container{
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  overflow: auto;
+  height: 100%;
+}
+
+#content-container{
+  background-color: #fff;
+  overflow: auto;
+  padding: 20px;
+  height: 100%;
+}
+
+.actions{
+  padding: 20px;
+}
+
+#timer{
+  font-size: 6em;
+  padding: 20px;
+}
+
+button{
+  padding: 20px;
+  font-size: 1em;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.bl1{
+  margin-left: 10px;
+}

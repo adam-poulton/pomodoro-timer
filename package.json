@@ -1,0 +1,17 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0",
+  "description": "A pomodoro timer",
+  "license": "MIT",
+  "main": "script.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
