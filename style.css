@@ -34,6 +34,16 @@ body {
   padding: 20px;
 }
 
+.active{
+  color: black;
+  text-decoration: underline;
+}
+
+.btn-group button{
+  padding: 15px;
+  font-size: 1.5em;
+}
+
 #timer{
   font-size: 6em;
   padding: 20px;
